@@ -1,0 +1,160 @@
+{
+  "provenance": {
+    "provider": "Polymarket Gamma API",
+    "event_id": "650891",
+    "url": "https://gamma-api.polymarket.com/events/650891",
+    "observed_at": "2026-07-04T12:48:40.985330+00:00",
+    "normalization_raw_sum": 1.0185
+  },
+  "event": {
+    "title": "Canada vs. Morocco - Exact Score",
+    "slug": "fifwc-can-mar-2026-07-04-exact-score",
+    "end_date": "2026-07-04T17:00:00Z",
+    "active": true,
+    "closed": false
+  },
+  "distribution": [
+    {
+      "market_id": "2740958",
+      "label": "0-0",
+      "home_goals": 0,
+      "away_goals": 0,
+      "raw_yes_price": 0.085,
+      "probability": 0.08345606283750615
+    },
+    {
+      "market_id": "2740959",
+      "label": "0-1",
+      "home_goals": 0,
+      "away_goals": 1,
+      "raw_yes_price": 0.145,
+      "probability": 0.14236622484045164
+    },
+    {
+      "market_id": "2740961",
+      "label": "1-0",
+      "home_goals": 1,
+      "away_goals": 0,
+      "raw_yes_price": 0.065,
+      "probability": 0.06381934216985764
+    },
+    {
+      "market_id": "2740962",
+      "label": "0-2",
+      "home_goals": 0,
+      "away_goals": 2,
+      "raw_yes_price": 0.115,
+      "probability": 0.1129111438389789
+    },
+    {
+      "market_id": "2740963",
+      "label": "1-1",
+      "home_goals": 1,
+      "away_goals": 1,
+      "raw_yes_price": 0.145,
+      "probability": 0.14236622484045164
+    },
+    {
+      "market_id": "2740965",
+      "label": "2-0",
+      "home_goals": 2,
+      "away_goals": 0,
+      "raw_yes_price": 0.0245,
+      "probability": 0.024054982817869417
+    },
+    {
+      "market_id": "2740966",
+      "label": "0-3",
+      "home_goals": 0,
+      "away_goals": 3,
+      "raw_yes_price": 0.0485,
+      "probability": 0.04761904761904762
+    },
+    {
+      "market_id": "2740967",
+      "label": "1-2",
+      "home_goals": 1,
+      "away_goals": 2,
+      "raw_yes_price": 0.115,
+      "probability": 0.1129111438389789
+    },
+    {
+      "market_id": "2740968",
+      "label": "2-1",
+      "home_goals": 2,
+      "away_goals": 1,
+      "raw_yes_price": 0.055,
+      "probability": 0.054000981836033385
+    },
+    {
+      "market_id": "2740969",
+      "label": "3-0",
+      "home_goals": 3,
+      "away_goals": 0,
+      "raw_yes_price": 0.0055,
+      "probability": 0.005400098183603338
+    },
+    {
+      "market_id": "2740970",
+      "label": "1-3",
+      "home_goals": 1,
+      "away_goals": 3,
+      "raw_yes_price": 0.055,
+      "probability": 0.054000981836033385
+    },
+    {
+      "market_id": "2740971",
+      "label": "2-2",
+      "home_goals": 2,
+      "away_goals": 2,
+      "raw_yes_price": 0.045,
+      "probability": 0.044182621502209134
+    },
+    {
+      "market_id": "2740972",
+      "label": "3-1",
+      "home_goals": 3,
+      "away_goals": 1,
+      "raw_yes_price": 0.0105,
+      "probability": 0.010309278350515465
+    },
+    {
+      "market_id": "2740974",
+      "label": "2-3",
+      "home_goals": 2,
+      "away_goals": 3,
+      "raw_yes_price": 0.023,
+      "probability": 0.022582228767795778
+    },
+    {
+      "market_id": "2740975",
+      "label": "3-2",
+      "home_goals": 3,
+      "away_goals": 2,
+      "raw_yes_price": 0.01,
+      "probability": 0.009818360333824251
+    },
+    {
+      "market_id": "2740976",
+      "label": "3-3",
+      "home_goals": 3,
+      "away_goals": 3,
+      "raw_yes_price": 0.0055,
+      "probability": 0.005400098183603338
+    },
+    {
+      "market_id": "2740978",
+      "label": "OTHER",
+      "home_goals": null,
+      "away_goals": null,
+      "raw_yes_price": 0.066,
+      "probability": 0.06480117820324006
+    }
+  ],
+  "diagnostics": {
+    "entropy": 3.650068354657034,
+    "normalized_entropy": 0.8929912017354248,
+    "concentration": 0.09267264492504765,
+    "top3_coverage": 0.3976435935198822
+  }
+}

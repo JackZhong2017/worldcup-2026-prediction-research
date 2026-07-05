@@ -1,0 +1,15 @@
+{
+  "name": "sports-prediction-research-platform",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --parallel --filter @sprp/api --filter @sprp/web dev",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "db:generate": "pnpm --filter @sprp/database prisma generate",
+    "db:migrate": "pnpm --filter @sprp/database prisma migrate dev"
+  }
+}

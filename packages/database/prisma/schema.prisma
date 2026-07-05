@@ -1,0 +1,161 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum MatchStatus {
+  SCHEDULED
+  LIVE
+  FINISHED
+  POSTPONED
+  CANCELLED
+}
+
+enum MarketType {
+  SCORE
+  WIN_DRAW_WIN
+  GOALS
+  BTTS
+}
+
+model Match {
+  id          String             @id @default(cuid())
+  competition String
+  kickoffAt   DateTime
+  homeTeam    String
+  awayTeam    String
+  status      MatchStatus        @default(SCHEDULED)
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+  markets     MarketSnapshot[]
+  result      Result?
+  reports     EvaluationReport[]
+  predictions PredictionRun[]
+
+  @@unique([competition, kickoffAt, homeTeam, awayTeam])
+  @@index([kickoffAt])
+}
+
+enum PredictionStatus {
+  RESEARCH_OUTPUT_NOT_VALIDATED
+  MODEL_PREDICTION
+}
+
+model PredictionRun {
+  id                String           @id @default(cuid())
+  matchId           String
+  match             Match            @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  observedAt        DateTime
+  modelVersion      String
+  statisticalWeight Float
+  status            PredictionStatus @default(RESEARCH_OUTPUT_NOT_VALIDATED)
+  confidence        String?
+  isOutOfSample     Boolean          @default(false)
+  diagnostics       Json
+  admission         Json
+  inputs            Json
+  cells             PredictionCell[]
+  createdAt         DateTime         @default(now())
+
+  @@index([matchId, observedAt])
+  @@index([status, observedAt])
+}
+
+model PredictionCell {
+  id           String        @id @default(cuid())
+  predictionId String
+  prediction   PredictionRun @relation(fields: [predictionId], references: [id], onDelete: Cascade)
+  source       String
+  homeGoals    Int
+  awayGoals    Int
+  probability  Decimal       @db.Decimal(12, 10)
+
+  @@unique([predictionId, source, homeGoals, awayGoals])
+}
+
+model MarketSnapshot {
+  id            String             @id @default(cuid())
+  matchId       String
+  match         Match              @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  provider      String
+  type          MarketType
+  observedAt    DateTime
+  rawPayloadRef String
+  payload       Json
+  volume        Decimal?           @db.Decimal(20, 4)
+  traders       Int?
+  scores        ScoreProbability[]
+  metrics       DerivedMetric[]
+  createdAt     DateTime           @default(now())
+
+  @@index([matchId, observedAt])
+  @@index([provider, type])
+}
+
+model ScoreProbability {
+  id          String         @id @default(cuid())
+  snapshotId  String
+  snapshot    MarketSnapshot @relation(fields: [snapshotId], references: [id], onDelete: Cascade)
+  homeGoals   Int
+  awayGoals   Int
+  probability Decimal        @db.Decimal(12, 10)
+
+  @@unique([snapshotId, homeGoals, awayGoals])
+}
+
+model DerivedMetric {
+  id            String         @id @default(cuid())
+  snapshotId    String
+  snapshot      MarketSnapshot @relation(fields: [snapshotId], references: [id], onDelete: Cascade)
+  name          String
+  value         Float
+  metricVersion String
+  parameters    Json
+  calculatedAt  DateTime       @default(now())
+
+  @@unique([snapshotId, name, metricVersion])
+  @@index([name, calculatedAt])
+}
+
+model Result {
+  id          String   @id @default(cuid())
+  matchId     String   @unique
+  match       Match    @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  homeGoals   Int
+  awayGoals   Int
+  source      String
+  confirmedAt DateTime
+}
+
+model EvaluationReport {
+  id            String    @id @default(cuid())
+  matchId       String?
+  match         Match?    @relation(fields: [matchId], references: [id], onDelete: SetNull)
+  type          String
+  periodStart   DateTime?
+  periodEnd     DateTime?
+  sampleSize    Int
+  metricVersion String
+  payload       Json
+  isOutOfSample Boolean   @default(false)
+  admitted      Boolean   @default(false)
+  generatedAt   DateTime  @default(now())
+}
+
+model Pattern {
+  id           String   @id @default(cuid())
+  title        String
+  description  String
+  confidence   Float?
+  sampleSize   Int
+  effectSize   Float?
+  pValue       Float?
+  method       String
+  query        Json
+  chart        Json?
+  discoveredAt DateTime @default(now())
+}

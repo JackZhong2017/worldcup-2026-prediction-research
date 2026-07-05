@@ -1,0 +1,155 @@
+{
+  "provenance": {
+    "provider": "Polymarket CLOB price history",
+    "event_id": "510226",
+    "observed_at": "2026-06-14T19:55:00+00:00",
+    "cutoff_rule": "latest point at least 5 minutes before kickoff",
+    "normalization_raw_sum": 1.058,
+    "max_price_age_seconds": 1496
+  },
+  "event": {
+    "title": "Netherlands vs. Japan - Exact Score",
+    "slug": "fifwc-nld-jpn-2026-06-14-exact-score",
+    "end_date": "2026-06-14T20:00:00Z",
+    "active": false,
+    "closed": true
+  },
+  "distribution": [
+    {
+      "market_id": "2322428",
+      "label": "0-0",
+      "home_goals": 0,
+      "away_goals": 0,
+      "raw_yes_price": 0.085,
+      "probability": 0.08034026465028356
+    },
+    {
+      "market_id": "2322429",
+      "label": "0-1",
+      "home_goals": 0,
+      "away_goals": 1,
+      "raw_yes_price": 0.085,
+      "probability": 0.08034026465028356
+    },
+    {
+      "market_id": "2322430",
+      "label": "1-0",
+      "home_goals": 1,
+      "away_goals": 0,
+      "raw_yes_price": 0.115,
+      "probability": 0.10869565217391304
+    },
+    {
+      "market_id": "2322432",
+      "label": "0-2",
+      "home_goals": 0,
+      "away_goals": 2,
+      "raw_yes_price": 0.044,
+      "probability": 0.041587901701323246
+    },
+    {
+      "market_id": "2322434",
+      "label": "1-1",
+      "home_goals": 1,
+      "away_goals": 1,
+      "raw_yes_price": 0.145,
+      "probability": 0.1370510396975425
+    },
+    {
+      "market_id": "2322435",
+      "label": "2-0",
+      "home_goals": 2,
+      "away_goals": 0,
+      "raw_yes_price": 0.085,
+      "probability": 0.08034026465028356
+    },
+    {
+      "market_id": "2322436",
+      "label": "0-3",
+      "home_goals": 0,
+      "away_goals": 3,
+      "raw_yes_price": 0.0135,
+      "probability": 0.012759924385633269
+    },
+    {
+      "market_id": "2322437",
+      "label": "1-2",
+      "home_goals": 1,
+      "away_goals": 2,
+      "raw_yes_price": 0.075,
+      "probability": 0.07088846880907372
+    },
+    {
+      "market_id": "2322438",
+      "label": "2-1",
+      "home_goals": 2,
+      "away_goals": 1,
+      "raw_yes_price": 0.105,
+      "probability": 0.0992438563327032
+    },
+    {
+      "market_id": "2322439",
+      "label": "3-0",
+      "home_goals": 3,
+      "away_goals": 0,
+      "raw_yes_price": 0.037,
+      "probability": 0.034971644612476364
+    },
+    {
+      "market_id": "2322440",
+      "label": "1-3",
+      "home_goals": 1,
+      "away_goals": 3,
+      "raw_yes_price": 0.0235,
+      "probability": 0.0222117202268431
+    },
+    {
+      "market_id": "2322441",
+      "label": "2-2",
+      "home_goals": 2,
+      "away_goals": 2,
+      "raw_yes_price": 0.0595,
+      "probability": 0.05623818525519848
+    },
+    {
+      "market_id": "2322442",
+      "label": "3-1",
+      "home_goals": 3,
+      "away_goals": 1,
+      "raw_yes_price": 0.0585,
+      "probability": 0.055293005671077505
+    },
+    {
+      "market_id": "2322443",
+      "label": "2-3",
+      "home_goals": 2,
+      "away_goals": 3,
+      "raw_yes_price": 0.027,
+      "probability": 0.025519848771266538
+    },
+    {
+      "market_id": "2322444",
+      "label": "3-2",
+      "home_goals": 3,
+      "away_goals": 2,
+      "raw_yes_price": 0.029,
+      "probability": 0.027410207939508508
+    },
+    {
+      "market_id": "2322445",
+      "label": "3-3",
+      "home_goals": 3,
+      "away_goals": 3,
+      "raw_yes_price": 0.015,
+      "probability": 0.014177693761814743
+    },
+    {
+      "market_id": "2322446",
+      "label": "OTHER",
+      "home_goals": null,
+      "away_goals": null,
+      "raw_yes_price": 0.056,
+      "probability": 0.052930056710775046
+    }
+  ]
+}

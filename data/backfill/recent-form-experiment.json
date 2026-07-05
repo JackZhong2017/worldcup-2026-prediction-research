@@ -1,0 +1,480 @@
+{
+  "status": "RESEARCH_OUTPUT_NOT_VALIDATED",
+  "experiment": "past-tournament-form-v1",
+  "causal_rule": "For each match, recent state contains only earlier resolved matches.",
+  "split": {
+    "method": "chronological-60-20-20",
+    "train_size": 52,
+    "validation_size": 18,
+    "test_size": 18
+  },
+  "selection": {
+    "selected": {
+      "recent_strength": 2.0,
+      "statistical_weight": 0.0,
+      "validation_log_loss": 2.750606265935934
+    },
+    "candidates": [
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.0,
+        "validation_log_loss": 2.750606265935934
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.1,
+        "validation_log_loss": 2.758246774104082
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.2,
+        "validation_log_loss": 2.7706094893317257
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.3,
+        "validation_log_loss": 2.787541519063869
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.4,
+        "validation_log_loss": 2.8088966948658682
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.5,
+        "validation_log_loss": 2.8345342531400948
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.6,
+        "validation_log_loss": 2.864317802535067
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.7,
+        "validation_log_loss": 2.8981149132560464
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.8,
+        "validation_log_loss": 2.9357974009041787
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 0.9,
+        "validation_log_loss": 2.9772421688992585
+      },
+      {
+        "recent_strength": 2.0,
+        "statistical_weight": 1.0,
+        "validation_log_loss": 3.0223323588250164
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.0,
+        "validation_log_loss": 2.750606265935934
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.1,
+        "validation_log_loss": 2.762381254233086
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.2,
+        "validation_log_loss": 2.7782074781988992
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.3,
+        "validation_log_loss": 2.798147652560854
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.4,
+        "validation_log_loss": 2.8222443127425283
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.5,
+        "validation_log_loss": 2.850516983682269
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.6,
+        "validation_log_loss": 2.8829608864819303
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.7,
+        "validation_log_loss": 2.919547342617169
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.8,
+        "validation_log_loss": 2.9602257557321687
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 0.9,
+        "validation_log_loss": 3.0049268060508605
+      },
+      {
+        "recent_strength": 5.0,
+        "statistical_weight": 1.0,
+        "validation_log_loss": 3.0535663456501143
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.0,
+        "validation_log_loss": 2.750606265935934
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.1,
+        "validation_log_loss": 2.7649922931505797
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.2,
+        "validation_log_loss": 2.7835149724852837
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.3,
+        "validation_log_loss": 2.8063244271629566
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.4,
+        "validation_log_loss": 2.8335445969649484
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.5,
+        "validation_log_loss": 2.8652678646715457
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.6,
+        "validation_log_loss": 2.901551526894477
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.7,
+        "validation_log_loss": 2.9424165418455637
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.8,
+        "validation_log_loss": 2.9878486253778114
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 0.9,
+        "validation_log_loss": 3.0378013958668615
+      },
+      {
+        "recent_strength": 10.0,
+        "statistical_weight": 1.0,
+        "validation_log_loss": 3.0922009911655617
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.0,
+        "validation_log_loss": 2.750606265935934
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.1,
+        "validation_log_loss": 2.7668107523677086
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.2,
+        "validation_log_loss": 2.7873990447538715
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.3,
+        "validation_log_loss": 2.812570333546049
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.4,
+        "validation_log_loss": 2.8424943388874286
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.5,
+        "validation_log_loss": 2.8773037624322075
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.6,
+        "validation_log_loss": 2.9170887269993475
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.7,
+        "validation_log_loss": 2.9618939268531856
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.8,
+        "validation_log_loss": 3.0117187964518974
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 0.9,
+        "validation_log_loss": 3.066520521617517
+      },
+      {
+        "recent_strength": 20.0,
+        "statistical_weight": 1.0,
+        "validation_log_loss": 3.126219301368765
+      }
+    ]
+  },
+  "test": {
+    "market_only": {
+      "sample_size": 18,
+      "brier_score": 0.8831529274766695,
+      "log_loss": 2.4432829729502297,
+      "top_label_calibration_error": 0.09508384864922916,
+      "top_label_calibration_curve": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 17,
+          "mean_forecast": 0.1479217495647368,
+          "observed_rate": 0.23529411764705882
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 1,
+          "mean_forecast": 0.22617901828665063,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        }
+      ]
+    },
+    "recent_adjusted_statistical_only": {
+      "sample_size": 18,
+      "brier_score": 0.89102753249196,
+      "log_loss": 2.495140530480617,
+      "top_label_calibration_error": 0.04787999894151317,
+      "top_label_calibration_curve": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1,
+          "mean_forecast": 0.09672425200709332,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 17,
+          "mean_forecast": 0.1314637806505798,
+          "observed_rate": 0.17647058823529413
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        }
+      ]
+    },
+    "selected_fusion": {
+      "sample_size": 18,
+      "brier_score": 0.8831529274766695,
+      "log_loss": 2.4432829729502297,
+      "top_label_calibration_error": 0.09508384864922916,
+      "top_label_calibration_curve": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 17,
+          "mean_forecast": 0.1479217495647368,
+          "observed_rate": 0.23529411764705882
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 1,
+          "mean_forecast": 0.22617901828665063,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_forecast": 0.0,
+          "observed_rate": 0.0
+        }
+      ]
+    }
+  },
+  "admission": {
+    "admitted": false,
+    "reason": "Only 18/200 untouched test matches."
+  }
+}

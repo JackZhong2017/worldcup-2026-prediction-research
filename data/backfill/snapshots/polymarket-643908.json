@@ -1,0 +1,155 @@
+{
+  "provenance": {
+    "provider": "Polymarket CLOB price history",
+    "event_id": "643908",
+    "observed_at": "2026-07-02T22:55:00+00:00",
+    "cutoff_rule": "latest point at least 5 minutes before kickoff",
+    "normalization_raw_sum": 1.0285,
+    "max_price_age_seconds": 1495
+  },
+  "event": {
+    "title": "Portugal vs. Croatia - Exact Score",
+    "slug": "fifwc-prt-hrv-2026-07-02-exact-score",
+    "end_date": "2026-07-02T23:00:00Z",
+    "active": false,
+    "closed": true
+  },
+  "distribution": [
+    {
+      "market_id": "2719045",
+      "label": "0-0",
+      "home_goals": 0,
+      "away_goals": 0,
+      "raw_yes_price": 0.065,
+      "probability": 0.0631988332523092
+    },
+    {
+      "market_id": "2719046",
+      "label": "0-1",
+      "home_goals": 0,
+      "away_goals": 1,
+      "raw_yes_price": 0.045,
+      "probability": 0.043753038405444825
+    },
+    {
+      "market_id": "2719047",
+      "label": "1-0",
+      "home_goals": 1,
+      "away_goals": 0,
+      "raw_yes_price": 0.105,
+      "probability": 0.10209042294603791
+    },
+    {
+      "market_id": "2719048",
+      "label": "0-2",
+      "home_goals": 0,
+      "away_goals": 2,
+      "raw_yes_price": 0.024,
+      "probability": 0.02333495381623724
+    },
+    {
+      "market_id": "2719049",
+      "label": "1-1",
+      "home_goals": 1,
+      "away_goals": 1,
+      "raw_yes_price": 0.135,
+      "probability": 0.1312591152163345
+    },
+    {
+      "market_id": "2719050",
+      "label": "2-0",
+      "home_goals": 2,
+      "away_goals": 0,
+      "raw_yes_price": 0.105,
+      "probability": 0.10209042294603791
+    },
+    {
+      "market_id": "2719051",
+      "label": "0-3",
+      "home_goals": 0,
+      "away_goals": 3,
+      "raw_yes_price": 0.006,
+      "probability": 0.00583373845405931
+    },
+    {
+      "market_id": "2719052",
+      "label": "1-2",
+      "home_goals": 1,
+      "away_goals": 2,
+      "raw_yes_price": 0.055,
+      "probability": 0.053475935828877004
+    },
+    {
+      "market_id": "2719053",
+      "label": "2-1",
+      "home_goals": 2,
+      "away_goals": 1,
+      "raw_yes_price": 0.12,
+      "probability": 0.1166747690811862
+    },
+    {
+      "market_id": "2719054",
+      "label": "3-0",
+      "home_goals": 3,
+      "away_goals": 0,
+      "raw_yes_price": 0.055,
+      "probability": 0.053475935828877004
+    },
+    {
+      "market_id": "2719055",
+      "label": "1-3",
+      "home_goals": 1,
+      "away_goals": 3,
+      "raw_yes_price": 0.0145,
+      "probability": 0.014098201263976666
+    },
+    {
+      "market_id": "2719056",
+      "label": "2-2",
+      "home_goals": 2,
+      "away_goals": 2,
+      "raw_yes_price": 0.06,
+      "probability": 0.0583373845405931
+    },
+    {
+      "market_id": "2719057",
+      "label": "3-1",
+      "home_goals": 3,
+      "away_goals": 1,
+      "raw_yes_price": 0.075,
+      "probability": 0.07292173067574137
+    },
+    {
+      "market_id": "2719058",
+      "label": "2-3",
+      "home_goals": 2,
+      "away_goals": 3,
+      "raw_yes_price": 0.016,
+      "probability": 0.015556635877491494
+    },
+    {
+      "market_id": "2719059",
+      "label": "3-2",
+      "home_goals": 3,
+      "away_goals": 2,
+      "raw_yes_price": 0.0325,
+      "probability": 0.0315994166261546
+    },
+    {
+      "market_id": "2719060",
+      "label": "3-3",
+      "home_goals": 3,
+      "away_goals": 3,
+      "raw_yes_price": 0.0105,
+      "probability": 0.010209042294603793
+    },
+    {
+      "market_id": "2719061",
+      "label": "OTHER",
+      "home_goals": null,
+      "away_goals": null,
+      "raw_yes_price": 0.105,
+      "probability": 0.10209042294603791
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-07-04T12:48:36.892445+00:00",
+  "tag_id": "102232",
+  "count": 8,
+  "records": [
+    {
+      "event_id": "650891",
+      "football_data_match_id": "537376",
+      "end_date": "2026-07-04T17:00:00Z",
+      "home_team": "Canada",
+      "away_team": "Morocco",
+      "snapshot": "data/snapshots/polymarket-650891.json",
+      "report": "data/reports/fused-650891.json",
+      "history_matches": {
+        "home": 9,
+        "away": 10
+      },
+      "status": "RESEARCH_OUTPUT_NOT_VALIDATED"
+    },
+    {
+      "event_id": "654628",
+      "football_data_match_id": "537375",
+      "end_date": "2026-07-04T21:00:00Z",
+      "home_team": "Paraguay",
+      "away_team": "France",
+      "snapshot": "data/snapshots/polymarket-654628.json",
+      "report": "data/reports/fused-654628.json",
+      "history_matches": {
+        "home": 3,
+        "away": 24
+      },
+      "status": "RESEARCH_OUTPUT_NOT_VALIDATED"
+    },
+    {
+      "event_id": "654635",
+      "football_data_match_id": "537377",
+      "end_date": "2026-07-05T20:00:00Z",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "snapshot": "data/snapshots/polymarket-654635.json",
+      "report": "data/reports/fused-654635.json",
+      "history_matches": {
+        "home": 14,
+        "away": 0
+      },
+      "status": "RESEARCH_OUTPUT_NOT_VALIDATED"
+    },
+    {
+      "event_id": "658265",
+      "football_data_match_id": "537378",
+      "end_date": "2026-07-06T00:00:00Z",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "snapshot": "data/snapshots/polymarket-658265.json",
+      "report": "data/reports/fused-658265.json",
+      "history_matches": {
+        "home": 10,
+        "away": 26
+      },
+      "status": "RESEARCH_OUTPUT_NOT_VALIDATED"
+    },
+    {
+      "event_id": "658273",
+      "football_data_match_id": "537380",
+      "end_date": "2026-07-07T00:00:00Z",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "snapshot": "data/snapshots/polymarket-658273.json",
+      "report": "data/reports/fused-658273.json",
+      "history_matches": {
+        "home": 7,
+        "away": 19
+      },
+      "status": "RESEARCH_OUTPUT_NOT_VALIDATED"
+    },
+    {
+      "event_id": "662081",
+      "football_data_match_id": "537379",
+      "end_date": "2026-07-06T19:00:00Z",
+      "home_team": "Portugal",
+      "away_team": "Spain",
+      "snapshot": "data/snapshots/polymarket-662081.json",
+      "report": "data/reports/fused-662081.json",
+      "history_matches": {
+        "home": 18,
+        "away": 21
+      },
+      "status": "RESEARCH_OUTPUT_NOT_VALIDATED"
+    },
+    {
+      "event_id": "665669",
+      "football_data_match_id": "537381",
+      "end_date": "2026-07-07T16:00:00Z",
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "snapshot": "data/snapshots/polymarket-665669.json",
+      "report": "data/reports/fused-665669.json",
+      "history_matches": {
+        "home": 17,
+        "away": 3
+      },
+      "status": "RESEARCH_OUTPUT_NOT_VALIDATED"
+    },
+    {
+      "event_id": "665674",
+      "football_data_match_id": "537382",
+      "end_date": "2026-07-07T20:00:00Z",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "snapshot": "data/snapshots/polymarket-665674.json",
+      "report": "data/reports/fused-665674.json",
+      "history_matches": {
+        "home": 18,
+        "away": 10
+      },
+      "status": "RESEARCH_OUTPUT_NOT_VALIDATED"
+    }
+  ]
+}

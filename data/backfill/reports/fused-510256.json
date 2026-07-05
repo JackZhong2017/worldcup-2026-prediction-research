@@ -1,0 +1,1894 @@
+{
+  "status": "RESEARCH_OUTPUT_NOT_VALIDATED",
+  "confidence": null,
+  "market_snapshot_observed_at": "2026-06-16T21:55:00+00:00",
+  "reason": "The fused model has no admitted out-of-sample evaluation report.",
+  "match": {
+    "home_team": "Iraq",
+    "away_team": "Norway",
+    "market_event": "510256"
+  },
+  "inputs": {
+    "home": {
+      "matches": 0,
+      "attack_rate": 1.208296413664122,
+      "defence_rate": 1.208296413664122
+    },
+    "away": {
+      "matches": 0,
+      "attack_rate": 1.208296413664122,
+      "defence_rate": 1.208296413664122
+    },
+    "league_xg_prior": 1.208296413664122,
+    "home_lambda": 1.3291260550305344,
+    "away_lambda": 1.0984512851492019,
+    "statistical_weight": 0.5,
+    "validated_statistical_config": {
+      "prior_strength": 2.0,
+      "xg_weight": 0.75,
+      "home_factor": 1.1,
+      "validation_log_loss": 2.802439149721481
+    },
+    "history_last_match": "2024-07-15T01:15:00.000"
+  },
+  "distributions": {
+    "market": [
+      {
+        "home_goals": 0,
+        "away_goals": 0,
+        "probability": 0.045773003269500234
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 1,
+        "probability": 0.10742643624474545
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 2,
+        "probability": 0.1447921531994395
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 3,
+        "probability": 0.12610929472209248
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 4,
+        "probability": 0.017023031294846697
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 5,
+        "probability": 0.003739794120591887
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 6,
+        "probability": 0.0006846636096595979
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 7,
+        "probability": 0.00010743851741792527
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 8,
+        "probability": 1.4751997191530613e-05
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 9,
+        "probability": 1.8004833637282468e-06
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 10,
+        "probability": 1.97774326477705e-07
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 0,
+        "probability": 0.026623073330219526
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 1,
+        "probability": 0.06492293320878095
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 2,
+        "probability": 0.08874357776739841
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 3,
+        "probability": 0.07006071929005138
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 4,
+        "probability": 0.02262575442958092
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 5,
+        "probability": 0.004970657806128681
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 6,
+        "probability": 0.0009100042425298271
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 7,
+        "probability": 0.00014279933281401638
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 8,
+        "probability": 1.9607263831000606e-05
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 9,
+        "probability": 2.3930693503802314e-06
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 10,
+        "probability": 2.6286701033763303e-07
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 0,
+        "probability": 0.009341429238673517
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 1,
+        "probability": 0.02101821578701541
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 2,
+        "probability": 0.026156001868285848
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 3,
+        "probability": 0.023353573096683795
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 4,
+        "probability": 0.015036239863539264
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 5,
+        "probability": 0.0033033154003832715
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 6,
+        "probability": 0.0006047551744673593
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 7,
+        "probability": 9.489915694204297e-05
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 8,
+        "probability": 1.3030262612820359e-05
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 9,
+        "probability": 1.5903454125426805e-06
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 10,
+        "probability": 1.7469169622386448e-07
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 0,
+        "probability": 0.0028024287716020553
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 1,
+        "probability": 0.006539000467071462
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 2,
+        "probability": 0.006539000467071462
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 3,
+        "probability": 0.005604857543204111
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 4,
+        "probability": 0.006661686057439601
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 5,
+        "probability": 0.0014635075222110096
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 6,
+        "probability": 0.00026793195309970133
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 7,
+        "probability": 4.2044314030700375e-05
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 8,
+        "probability": 5.77295384752993e-06
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 9,
+        "probability": 7.045898414362535e-07
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 10,
+        "probability": 7.739576168287249e-08
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 0,
+        "probability": 0.0364903793959132
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 1,
+        "probability": 0.040082904143022804
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 2,
+        "probability": 0.022014558784207834
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 3,
+        "probability": 0.008060640129501917
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 4,
+        "probability": 0.002213555127344152
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 5,
+        "probability": 0.0004862964948759578
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 6,
+        "probability": 8.902883496000802e-05
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 7,
+        "probability": 1.3970548311022434e-05
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 8,
+        "probability": 1.9182458433101996e-06
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 9,
+        "probability": 2.3412217909068927e-07
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 10,
+        "probability": 2.5717180850409924e-08
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 0,
+        "probability": 0.009700062802611523
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 1,
+        "probability": 0.010655046451556594
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 2,
+        "probability": 0.005852024734018392
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 3,
+        "probability": 0.00214272136326914
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 4,
+        "probability": 0.0005884187587999091
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 5,
+        "probability": 0.00012926986836193168
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 6,
+        "probability": 2.3666108838872e-05
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 7,
+        "probability": 3.713723952648548e-06
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 8,
+        "probability": 5.099181060595213e-07
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 9,
+        "probability": 6.223557765799203e-08
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 10,
+        "probability": 6.836275026042431e-09
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 0,
+        "probability": 0.002148767701063913
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 1,
+        "probability": 0.0023603166427207515
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 2,
+        "probability": 0.0012963464247778295
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 3,
+        "probability": 0.0004746577987652599
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 4,
+        "probability": 0.00013034711726494776
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 5,
+        "probability": 2.8635991695035115e-05
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 6,
+        "probability": 5.242540313155532e-06
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 7,
+        "probability": 8.226678777760278e-07
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 8,
+        "probability": 1.1295757344925553e-07
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 9,
+        "probability": 1.3786487969185567e-08
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 10,
+        "probability": 1.5143785427445896e-09
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 0,
+        "probability": 0.0004079975910988729
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 1,
+        "probability": 0.00044816547828033546
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 2,
+        "probability": 0.00024614397278827066
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 3,
+        "probability": 9.012572108033536e-05
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 4,
+        "probability": 2.474967853642322e-05
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 5,
+        "probability": 5.43726323907274e-06
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 6,
+        "probability": 9.954281321089939e-07
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 7,
+        "probability": 1.5620418728411344e-07
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 8,
+        "probability": 2.1447836283490124e-08
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 9,
+        "probability": 2.6177114810299346e-09
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 10,
+        "probability": 2.8754285404871523e-10
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 0,
+        "probability": 6.778502858990074e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 1,
+        "probability": 7.445855176845185e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 2,
+        "probability": 4.0894545940202156e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 3,
+        "probability": 1.497355551453605e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 4,
+        "probability": 4.1119303245487595e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 5,
+        "probability": 9.033510298889121e-07
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 6,
+        "probability": 1.6538118328705506e-07
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 7,
+        "probability": 2.5951881903023047e-08
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 8,
+        "probability": 3.5633597535519982e-09
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 9,
+        "probability": 4.349085667486817e-10
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 10,
+        "probability": 4.777258740674868e-11
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 0,
+        "probability": 1.0010538626647416e-05
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 1,
+        "probability": 1.099608901947658e-05
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 2,
+        "probability": 6.039334057529539e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 3,
+        "probability": 2.211304752312889e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 4,
+        "probability": 6.072526367586575e-07
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 5,
+        "probability": 1.3340748785155776e-07
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 6,
+        "probability": 2.442360441317836e-08
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 7,
+        "probability": 3.832591379375926e-09
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 8,
+        "probability": 5.262393657659048e-10
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 9,
+        "probability": 6.422758973573991e-11
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 10,
+        "probability": 7.055087848725917e-12
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 0,
+        "probability": 1.3305267713566668e-06
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 1,
+        "probability": 1.461518841922149e-06
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 2,
+        "probability": 8.027036250895788e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 3,
+        "probability": 2.9391027619119044e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 4,
+        "probability": 8.071153015019248e-08
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 5,
+        "probability": 1.7731536803967493e-08
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 6,
+        "probability": 3.246204898331411e-09
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 7,
+        "probability": 5.093997060613961e-10
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 8,
+        "probability": 6.994384522222078e-11
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 9,
+        "probability": 8.536656296958364e-12
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 10,
+        "probability": 9.37710108027094e-13
+      }
+    ],
+    "statistical": [
+      {
+        "home_goals": 0,
+        "away_goals": 0,
+        "probability": 0.08825039175484155
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 1,
+        "probability": 0.09693875623802622
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 2,
+        "probability": 0.05324125068521256
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 3,
+        "probability": 0.019494306746040854
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 4,
+        "probability": 0.005353386574570333
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 5,
+        "probability": 0.0011760868725474531
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 6,
+        "probability": 0.00021531235609947592
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 7,
+        "probability": 3.378716203799599e-05
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 8,
+        "probability": 4.639193945272627e-06
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 9,
+        "probability": 5.662142834712348e-07
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 10,
+        "probability": 6.219588073488123e-08
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 0,
+        "probability": 0.11729589504801174
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 1,
+        "probability": 0.1288438266582144
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 2,
+        "probability": 0.0707643334881283
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 3,
+        "probability": 0.025910391020920416
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 4,
+        "probability": 0.007115325578912092
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 5,
+        "probability": 0.0015631677052821951
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 6,
+        "probability": 0.00028617726246182607
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 7,
+        "probability": 4.490739739023904e-05
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 8,
+        "probability": 6.1660735470017474e-06
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 9,
+        "probability": 7.525701568920631e-07
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 10,
+        "probability": 8.26661656003023e-08
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 0,
+        "probability": 0.07795051512821972
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 1,
+        "probability": 0.08562484352063525
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 2,
+        "probability": 0.04702735970297055
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 3,
+        "probability": 0.017219087900967267
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 4,
+        "probability": 0.004728582308478641
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 5,
+        "probability": 0.0010388234627364283
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 6,
+        "probability": 0.00019018282794766234
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 7,
+        "probability": 2.9843795967488466e-05
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 8,
+        "probability": 4.097744504277283e-06
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 9,
+        "probability": 5.001303018818292e-07
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 10,
+        "probability": 5.493687728441534e-08
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 0,
+        "probability": 0.03453535355332289
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 1,
+        "probability": 0.03793540349372959
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 2,
+        "probability": 0.020835096360170394
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 3,
+        "probability": 0.007628779457678877
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 4,
+        "probability": 0.002094960649851798
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 5,
+        "probability": 0.0004602424436333429
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 6,
+        "probability": 8.425898394820912e-05
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 7,
+        "probability": 1.322205560046804e-05
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 8,
+        "probability": 1.8154729958310397e-06
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 9,
+        "probability": 2.2157873838047527e-07
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 10,
+        "probability": 2.4339344993577182e-08
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 0,
+        "probability": 0.0114754595568532
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 1,
+        "probability": 0.012605233297903086
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 2,
+        "probability": 0.006923117357843579
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 3,
+        "probability": 0.002534902386320676
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 4,
+        "probability": 0.0006961166959954311
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 5,
+        "probability": 0.0001529300558659995
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 6,
+        "probability": 2.799770273399107e-05
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 7,
+        "probability": 4.393444649911117e-06
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 8,
+        "probability": 6.032481152408438e-07
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 9,
+        "probability": 7.362651860557097e-08
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 10,
+        "probability": 8.087514398335106e-09
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 0,
+        "probability": 0.0030504664580925478
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 1,
+        "probability": 0.003350788801196293
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 2,
+        "probability": 0.0018403391324688105
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 3,
+        "probability": 0.0006738409617235775
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 4,
+        "probability": 0.00018504536759785946
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 5,
+        "probability": 4.0652664369755034e-05
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 6,
+        "probability": 7.442495236949432e-06
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 7,
+        "probability": 1.167888351106274e-06
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 8,
+        "probability": 1.603585575229336e-07
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 9,
+        "probability": 1.957178484397096e-08
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 10,
+        "probability": 2.149865221452357e-09
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 0,
+        "probability": 0.0006757424082412523
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 1,
+        "probability": 0.0007422701167624203
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 2,
+        "probability": 0.00040767378184276436
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 3,
+        "probability": 0.00014926992986227328
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 4,
+        "probability": 4.099143657283633e-05
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 5,
+        "probability": 9.00541923670881e-06
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 6,
+        "probability": 1.648669055645023e-06
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 7,
+        "probability": 2.5871180613699954e-07
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 8,
+        "probability": 3.552278949180729e-08
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 9,
+        "probability": 4.33556152992892e-09
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 10,
+        "probability": 4.762403134393862e-10
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 0,
+        "probability": 0.00012830669161178985
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 1,
+        "probability": 0.00014093865029421286
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 2,
+        "probability": 7.740712077143604e-05
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 3,
+        "probability": 2.8342650430361132e-05
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 4,
+        "probability": 7.78325519744119e-06
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 5,
+        "probability": 1.709905334854696e-06
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 6,
+        "probability": 3.1304128542576953e-07
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 7,
+        "probability": 4.9122943182956384e-08
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 8,
+        "probability": 6.7448950087037075e-09
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 9,
+        "probability": 8.232153989452251e-10
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 10,
+        "probability": 9.042620129259953e-11
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 0,
+        "probability": 2.1316970856999697e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 1,
+        "probability": 2.3415654033359394e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 2,
+        "probability": 1.286047763277636e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 3,
+        "probability": 4.7088693944519205e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 4,
+        "probability": 1.293115909483864e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 5,
+        "probability": 2.8408496652388586e-07
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 6,
+        "probability": 5.2008916094955066e-08
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 7,
+        "probability": 8.161322960531486e-09
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 8,
+        "probability": 1.1206019618141875e-09
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 9,
+        "probability": 1.367696294550568e-10
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 10,
+        "probability": 1.5023477524428722e-11
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 0,
+        "probability": 3.148104597818319e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 1,
+        "probability": 3.4580395412576436e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 2,
+        "probability": 1.8992439890956078e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 3,
+        "probability": 6.954090002113224e-07
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 4,
+        "probability": 1.9096822749661216e-07
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 5,
+        "probability": 4.195385898326375e-08
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 6,
+        "probability": 7.68071171952241e-09
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 7,
+        "probability": 1.2052696655957038e-09
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 8,
+        "probability": 1.654912516406187e-10
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 9,
+        "probability": 2.019823089395418e-11
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 10,
+        "probability": 2.2186772683204277e-12
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 0,
+        "probability": 4.1842278449217506e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 1,
+        "probability": 4.5961704536113727e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 2,
+        "probability": 2.524334670767101e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 3,
+        "probability": 9.242862210836033e-08
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 4,
+        "probability": 2.5382084684874583e-08
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 5,
+        "probability": 5.576196708373271e-09
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 6,
+        "probability": 1.0208634067595615e-09
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 7,
+        "probability": 1.60195531588119e-10
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 8,
+        "probability": 2.1995873443516105e-11
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 9,
+        "probability": 2.684599494667719e-12
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 10,
+        "probability": 2.948901765028653e-13
+      }
+    ],
+    "fused": [
+      {
+        "home_goals": 0,
+        "away_goals": 0,
+        "probability": 0.07337127174408774
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 1,
+        "probability": 0.11780597760188911
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 2,
+        "probability": 0.10135837968655978
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 3,
+        "probability": 0.05723879307716505
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 4,
+        "probability": 0.011020359779877751
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 5,
+        "probability": 0.0024210656726026585
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 6,
+        "probability": 0.0004432371165835012
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 7,
+        "probability": 6.955348290528194e-05
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 8,
+        "probability": 9.550139085488744e-06
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 9,
+        "probability": 1.1655958390898598e-06
+      },
+      {
+        "home_goals": 0,
+        "away_goals": 10,
+        "probability": 1.2803502474128184e-07
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 0,
+        "probability": 0.0645109626444481
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 1,
+        "probability": 0.1055829751460222
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 2,
+        "probability": 0.09148264204698593
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 3,
+        "probability": 0.049185523829389614
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 4,
+        "probability": 0.014647447319246087
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 5,
+        "probability": 0.003217901466396218
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 6,
+        "probability": 0.0005891180002077379
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 7,
+        "probability": 9.244534634753106e-05
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 8,
+        "probability": 1.269333868768857e-05
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 9,
+        "probability": 1.5492237993695107e-06
+      },
+      {
+        "home_goals": 1,
+        "away_goals": 10,
+        "probability": 1.701746873401168e-07
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 0,
+        "probability": 0.03115151556439843
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 1,
+        "probability": 0.0489734658654744
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 2,
+        "probability": 0.0404877832828879
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 3,
+        "probability": 0.02314966771494949
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 4,
+        "probability": 0.009734151935848562
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 5,
+        "probability": 0.0021384983407540885
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 6,
+        "probability": 0.0003915060417817941
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 7,
+        "probability": 6.14357592484127e-05
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 8,
+        "probability": 8.435523587566984e-06
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 9,
+        "probability": 1.0295568584077073e-06
+      },
+      {
+        "home_goals": 2,
+        "away_goals": 10,
+        "probability": 1.1309180542521205e-07
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 0,
+        "probability": 0.011356964450143283
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 1,
+        "probability": 0.018181975140901394
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 2,
+        "probability": 0.013474618015658192
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 3,
+        "probability": 0.007548711731352291
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 4,
+        "probability": 0.004312638320520746
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 5,
+        "probability": 0.0009474446211119418
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 6,
+        "probability": 0.00017345362694468522
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 7,
+        "probability": 2.7218622775882817e-05
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 8,
+        "probability": 3.7372913960199763e-06
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 9,
+        "probability": 4.561369485483553e-07
+      },
+      {
+        "home_goals": 3,
+        "away_goals": 10,
+        "probability": 5.010442173369763e-08
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 0,
+        "probability": 0.023623119906320014
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 1,
+        "probability": 0.02594884642033091
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 2,
+        "probability": 0.014251771849275879
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 3,
+        "probability": 0.005218292367830103
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 4,
+        "probability": 0.001433009989431812
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 5,
+        "probability": 0.0003148183329046036
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 6,
+        "probability": 5.7635433727931845e-05
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 7,
+        "probability": 9.044245178368346e-06
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 8,
+        "probability": 1.2418328424228973e-06
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 9,
+        "probability": 1.515658757444353e-07
+      },
+      {
+        "home_goals": 4,
+        "away_goals": 10,
+        "probability": 1.6648773099623922e-08
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 0,
+        "probability": 0.006279620833720084
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 1,
+        "probability": 0.0068978575750495265
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 2,
+        "probability": 0.003788480259044655
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 3,
+        "probability": 0.0013871536697699942
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 4,
+        "probability": 0.00038093018281457053
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 5,
+        "probability": 8.368664977295705e-05
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 6,
+        "probability": 1.5320951332155975e-05
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 7,
+        "probability": 2.4041883829307297e-06
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 8,
+        "probability": 3.3011047737138013e-07
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 9,
+        "probability": 4.02900309010899e-08
+      },
+      {
+        "home_goals": 5,
+        "away_goals": 10,
+        "probability": 4.4256636222003254e-09
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 0,
+        "probability": 0.0013910679443016544
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 1,
+        "probability": 0.001528020371148011
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 2,
+        "probability": 0.0008392279702108466
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 3,
+        "probability": 0.0003072836808037534
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 4,
+        "probability": 8.438403852106501e-05
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 5,
+        "probability": 1.8538351111908727e-05
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 6,
+        "probability": 3.393912600570546e-06
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 7,
+        "probability": 5.325782368258267e-07
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 8,
+        "probability": 7.312640608547815e-08
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 9,
+        "probability": 8.925088304770656e-09
+      },
+      {
+        "home_goals": 6,
+        "away_goals": 10,
+        "probability": 9.803774718445439e-10
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 0,
+        "probability": 0.0002641292355841563
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 1,
+        "probability": 0.00029013309827289273
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 2,
+        "probability": 0.00015934853733108937
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 3,
+        "probability": 5.834553520599356e-05
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 4,
+        "probability": 1.6022432032435407e-05
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 5,
+        "probability": 3.5199722114488824e-06
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 6,
+        "probability": 6.444196665592504e-07
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 7,
+        "probability": 1.0112337298677555e-07
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 8,
+        "probability": 1.3884887376993209e-08
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 9,
+        "probability": 1.6946524870455694e-09
+      },
+      {
+        "home_goals": 7,
+        "away_goals": 10,
+        "probability": 1.861493202276497e-10
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 0,
+        "probability": 4.388263111377503e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 1,
+        "probability": 4.820293254265452e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 2,
+        "probability": 2.6474286599719574e-05
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 3,
+        "probability": 9.693571379623423e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 4,
+        "probability": 2.6619789849082168e-06
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 5,
+        "probability": 5.848108474025198e-07
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 6,
+        "probability": 1.0706437114974859e-07
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 7,
+        "probability": 1.6800713726161783e-08
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 8,
+        "probability": 2.306845697990781e-09
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 9,
+        "probability": 2.815508468443201e-10
+      },
+      {
+        "home_goals": 8,
+        "away_goals": 10,
+        "probability": 3.0926988955098947e-11
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 0,
+        "probability": 6.48061648629022e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 1,
+        "probability": 7.118641507924597e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 2,
+        "probability": 3.909740456448113e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 3,
+        "probability": 1.4315531429950859e-06
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 4,
+        "probability": 3.9312284742058274e-07
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 5,
+        "probability": 8.636525939413054e-08
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 6,
+        "probability": 1.5811338362287814e-08
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 7,
+        "probability": 2.4811407062834176e-09
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 8,
+        "probability": 3.406765246816273e-10
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 9,
+        "probability": 4.157961848407749e-11
+      },
+      {
+        "home_goals": 9,
+        "away_goals": 10,
+        "probability": 4.567318535984842e-12
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 0,
+        "probability": 8.613556224588765e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 1,
+        "probability": 9.461571904604438e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 2,
+        "probability": 5.196537909072163e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 3,
+        "probability": 1.9027145815156216e-07
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 4,
+        "probability": 5.2250981933449e-08
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 5,
+        "probability": 1.1479031651020955e-08
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 6,
+        "probability": 2.1015261782220553e-09
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 7,
+        "probability": 3.297748758918154e-10
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 8,
+        "probability": 4.528020452916038e-11
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 9,
+        "probability": 5.52645542854166e-12
+      },
+      {
+        "home_goals": 10,
+        "away_goals": 10,
+        "probability": 6.070542067801371e-13
+      }
+    ]
+  },
+  "diagnostics": {
+    "market": {
+      "entropy": 4.25971427049342,
+      "normalized_entropy": 0.6156667828820045,
+      "concentration": 0.07497299911819023,
+      "top3_coverage": 0.37832788416627744
+    },
+    "statistical": {
+      "entropy": 4.080140706366315,
+      "normalized_entropy": 0.5897125823191616,
+      "concentration": 0.07596038478323819,
+      "top3_coverage": 0.3430784779442524
+    },
+    "fused": {
+      "entropy": 4.301058991742829,
+      "normalized_entropy": 0.6216424352155653,
+      "concentration": 0.06719559170231307,
+      "top3_coverage": 0.32474733243447107
+    }
+  },
+  "top3": [
+    {
+      "home_goals": 0,
+      "away_goals": 1,
+      "probability": 0.11780597760188911
+    },
+    {
+      "home_goals": 1,
+      "away_goals": 1,
+      "probability": 0.1055829751460222
+    },
+    {
+      "home_goals": 0,
+      "away_goals": 2,
+      "probability": 0.10135837968655978
+    }
+  ]
+}

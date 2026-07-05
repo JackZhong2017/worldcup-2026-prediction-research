@@ -1,0 +1,160 @@
+{
+  "provenance": {
+    "provider": "Polymarket Gamma API",
+    "event_id": "654635",
+    "url": "https://gamma-api.polymarket.com/events/654635",
+    "observed_at": "2026-07-04T12:48:42.255680+00:00",
+    "normalization_raw_sum": 1.01
+  },
+  "event": {
+    "title": "Brazil vs. Norway - Exact Score",
+    "slug": "fifwc-bra-nor-2026-07-05-exact-score",
+    "end_date": "2026-07-05T20:00:00Z",
+    "active": true,
+    "closed": false
+  },
+  "distribution": [
+    {
+      "market_id": "2754709",
+      "label": "0-2",
+      "home_goals": 0,
+      "away_goals": 2,
+      "raw_yes_price": 0.0285,
+      "probability": 0.02821782178217822
+    },
+    {
+      "market_id": "2754710",
+      "label": "1-1",
+      "home_goals": 1,
+      "away_goals": 1,
+      "raw_yes_price": 0.125,
+      "probability": 0.12376237623762376
+    },
+    {
+      "market_id": "2754721",
+      "label": "2-3",
+      "home_goals": 2,
+      "away_goals": 3,
+      "raw_yes_price": 0.0195,
+      "probability": 0.019306930693069307
+    },
+    {
+      "market_id": "2754725",
+      "label": "OTHER",
+      "home_goals": null,
+      "away_goals": null,
+      "raw_yes_price": 0.11,
+      "probability": 0.10891089108910891
+    },
+    {
+      "market_id": "2754705",
+      "label": "0-0",
+      "home_goals": 0,
+      "away_goals": 0,
+      "raw_yes_price": 0.055,
+      "probability": 0.054455445544554455
+    },
+    {
+      "market_id": "2754706",
+      "label": "0-1",
+      "home_goals": 0,
+      "away_goals": 1,
+      "raw_yes_price": 0.055,
+      "probability": 0.054455445544554455
+    },
+    {
+      "market_id": "2754707",
+      "label": "1-0",
+      "home_goals": 1,
+      "away_goals": 0,
+      "raw_yes_price": 0.105,
+      "probability": 0.10396039603960396
+    },
+    {
+      "market_id": "2754712",
+      "label": "2-0",
+      "home_goals": 2,
+      "away_goals": 0,
+      "raw_yes_price": 0.085,
+      "probability": 0.08415841584158416
+    },
+    {
+      "market_id": "2754713",
+      "label": "0-3",
+      "home_goals": 0,
+      "away_goals": 3,
+      "raw_yes_price": 0.0105,
+      "probability": 0.010396039603960397
+    },
+    {
+      "market_id": "2754714",
+      "label": "1-2",
+      "home_goals": 1,
+      "away_goals": 2,
+      "raw_yes_price": 0.055,
+      "probability": 0.054455445544554455
+    },
+    {
+      "market_id": "2754715",
+      "label": "2-1",
+      "home_goals": 2,
+      "away_goals": 1,
+      "raw_yes_price": 0.115,
+      "probability": 0.11386138613861387
+    },
+    {
+      "market_id": "2754716",
+      "label": "3-0",
+      "home_goals": 3,
+      "away_goals": 0,
+      "raw_yes_price": 0.045,
+      "probability": 0.04455445544554455
+    },
+    {
+      "market_id": "2754717",
+      "label": "1-3",
+      "home_goals": 1,
+      "away_goals": 3,
+      "raw_yes_price": 0.0185,
+      "probability": 0.018316831683168316
+    },
+    {
+      "market_id": "2754718",
+      "label": "2-2",
+      "home_goals": 2,
+      "away_goals": 2,
+      "raw_yes_price": 0.065,
+      "probability": 0.06435643564356436
+    },
+    {
+      "market_id": "2754719",
+      "label": "3-1",
+      "home_goals": 3,
+      "away_goals": 1,
+      "raw_yes_price": 0.065,
+      "probability": 0.06435643564356436
+    },
+    {
+      "market_id": "2754722",
+      "label": "3-2",
+      "home_goals": 3,
+      "away_goals": 2,
+      "raw_yes_price": 0.0375,
+      "probability": 0.03712871287128713
+    },
+    {
+      "market_id": "2754723",
+      "label": "3-3",
+      "home_goals": 3,
+      "away_goals": 3,
+      "raw_yes_price": 0.0155,
+      "probability": 0.015346534653465346
+    }
+  ],
+  "diagnostics": {
+    "entropy": 3.811989875465651,
+    "normalized_entropy": 0.9326053895818606,
+    "concentration": 0.0804249583374179,
+    "top3_coverage": 0.3465346534653465
+  }
+}

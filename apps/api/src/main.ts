@@ -1,0 +1,12 @@
+import 'reflect-metadata';
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module.js';
+
+async function bootstrap(): Promise<void> {
+  const app = await NestFactory.create(AppModule);
+  app.enableCors();
+  app.setGlobalPrefix('api/v1');
+  await app.listen(Number(process.env.API_PORT ?? 3001));
+}
+
+void bootstrap();

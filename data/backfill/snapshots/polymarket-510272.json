@@ -1,0 +1,155 @@
+{
+  "provenance": {
+    "provider": "Polymarket CLOB price history",
+    "event_id": "510272",
+    "observed_at": "2026-06-18T18:55:00+00:00",
+    "cutoff_rule": "latest point at least 5 minutes before kickoff",
+    "normalization_raw_sum": 1.0285,
+    "max_price_age_seconds": 1497
+  },
+  "event": {
+    "title": "Switzerland vs. Bosnia-Herzegovina - Exact Score",
+    "slug": "fifwc-che-bih-2026-06-18-exact-score",
+    "end_date": "2026-06-18T19:00:00Z",
+    "active": false,
+    "closed": true
+  },
+  "distribution": [
+    {
+      "market_id": "2322764",
+      "label": "0-0",
+      "home_goals": 0,
+      "away_goals": 0,
+      "raw_yes_price": 0.065,
+      "probability": 0.0631988332523092
+    },
+    {
+      "market_id": "2322765",
+      "label": "0-1",
+      "home_goals": 0,
+      "away_goals": 1,
+      "raw_yes_price": 0.055,
+      "probability": 0.053475935828877004
+    },
+    {
+      "market_id": "2322766",
+      "label": "1-0",
+      "home_goals": 1,
+      "away_goals": 0,
+      "raw_yes_price": 0.125,
+      "probability": 0.12153621779290229
+    },
+    {
+      "market_id": "2322767",
+      "label": "0-2",
+      "home_goals": 0,
+      "away_goals": 2,
+      "raw_yes_price": 0.0205,
+      "probability": 0.019931939718035977
+    },
+    {
+      "market_id": "2322768",
+      "label": "1-1",
+      "home_goals": 1,
+      "away_goals": 1,
+      "raw_yes_price": 0.115,
+      "probability": 0.11181332036947011
+    },
+    {
+      "market_id": "2322769",
+      "label": "2-0",
+      "home_goals": 2,
+      "away_goals": 0,
+      "raw_yes_price": 0.135,
+      "probability": 0.1312591152163345
+    },
+    {
+      "market_id": "2322770",
+      "label": "0-3",
+      "home_goals": 0,
+      "away_goals": 3,
+      "raw_yes_price": 0.005,
+      "probability": 0.004861448711716091
+    },
+    {
+      "market_id": "2322771",
+      "label": "1-2",
+      "home_goals": 1,
+      "away_goals": 2,
+      "raw_yes_price": 0.045,
+      "probability": 0.043753038405444825
+    },
+    {
+      "market_id": "2322772",
+      "label": "2-1",
+      "home_goals": 2,
+      "away_goals": 1,
+      "raw_yes_price": 0.105,
+      "probability": 0.10209042294603791
+    },
+    {
+      "market_id": "2322773",
+      "label": "3-0",
+      "home_goals": 3,
+      "away_goals": 0,
+      "raw_yes_price": 0.075,
+      "probability": 0.07292173067574137
+    },
+    {
+      "market_id": "2322774",
+      "label": "1-3",
+      "home_goals": 1,
+      "away_goals": 3,
+      "raw_yes_price": 0.011,
+      "probability": 0.0106951871657754
+    },
+    {
+      "market_id": "2322775",
+      "label": "2-2",
+      "home_goals": 2,
+      "away_goals": 2,
+      "raw_yes_price": 0.045,
+      "probability": 0.043753038405444825
+    },
+    {
+      "market_id": "2322776",
+      "label": "3-1",
+      "home_goals": 3,
+      "away_goals": 1,
+      "raw_yes_price": 0.065,
+      "probability": 0.0631988332523092
+    },
+    {
+      "market_id": "2322777",
+      "label": "2-3",
+      "home_goals": 2,
+      "away_goals": 3,
+      "raw_yes_price": 0.0115,
+      "probability": 0.01118133203694701
+    },
+    {
+      "market_id": "2322778",
+      "label": "3-2",
+      "home_goals": 3,
+      "away_goals": 2,
+      "raw_yes_price": 0.026,
+      "probability": 0.025279533300923675
+    },
+    {
+      "market_id": "2322779",
+      "label": "3-3",
+      "home_goals": 3,
+      "away_goals": 3,
+      "raw_yes_price": 0.0095,
+      "probability": 0.009236752552260573
+    },
+    {
+      "market_id": "2322780",
+      "label": "OTHER",
+      "home_goals": null,
+      "away_goals": null,
+      "raw_yes_price": 0.115,
+      "probability": 0.11181332036947011
+    }
+  ]
+}
