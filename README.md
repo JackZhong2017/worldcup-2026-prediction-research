@@ -8,6 +8,8 @@
 [![NestJS](https://img.shields.io/badge/NestJS-11-E0234E?style=flat-square)](https://nestjs.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square)](https://www.postgresql.org/)
 
+> 🇬🇧 **English: [README.en.md](README.en.md)** | 🇪🇸 **Español: [README.es.md](README.es.md)**
+
 一个基于**对数意见池融合 + 时间序列外样本验证**的足球预测市场校准研究平台。聚焦 2026 世界杯，将每场比赛视为一次观测，对比 Polymarket 市场隐含概率与 StatsBomb xG 统计模型，科学评估融合模型是否具备预测能力。
 
 **不做投注建议，不做策略优化，不做仓位建议。** 这是一个纯粹的研究工具——宁愿诚实地报告模型被拒绝，也不做不科学的预测。
